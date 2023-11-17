@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PortFolio</title>
+  <link rel="stylesheet" href="Sidebar.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-java'></i>
+      <span class="logo_name">MyPortFolio</span>
+      <i class="bx bx-menu"></i>
+      <div class="home-content">
+        <span class="text">My PortFolio Website</span>
+      </div>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class='bx bx-home-alt-2' ></i>
+          <span class="link_name">Home</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name"href="#">Home</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <i class='bx bxl-java'></i>
+            <span class="link_name">Languages</span>
+          </a>
+          <i class="bx bxs-chevron-down arrow"></i> 
+          <!--why we used here instead of in a -->
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name"href="#">Languages</a></li>
+          <li><a href="#">Java & J2EE</a></li>
+          <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;MySQL</a></li>
+          <li><a href="#">HTML & CSS</a></li>
+          <li><a href="#">&nbsp;JavaScript</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <i class='bx bxl-react' ></i>
+            <span class="link_name">FrameWork</span>
+          </a>
+          <i class="bx bxs-chevron-down arrow"></i> 
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name"href="#">FrameWork</a></li>
+          <li><a href="#">SpringBoot</a></li>
+          <li><a href="#">Hibernate</a></li>
+          <li><a href="#">ReactJS</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <i class='bx bx-terminal'></i>
+            <span class="link_name">Operating System</span>
+          </a>
+          <i class="bx bxs-chevron-down arrow"></i> 
+          <!--why we used here instead of in a -->
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name"href="#">Operating Systems</a></li>
+          <li><a href="#">Windows</a></li>
+          <li><a href="#">Ubuntu</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxl-instagram'></i>
+          <span class="link_name">Instagram</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name"href="#">Instagram</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxl-whatsapp' ></i>
+          <span class="link_name">WhatsApp</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name"href="#">WhatsApp</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxl-youtube'></i>
+          <span class="link_name">Youtube</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name"href="#">Youtube</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bxs-user-check'></i>
+          <span class="link_name">About Me</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name"href="#">About Me</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-cog"></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name"href="#">Setting</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="profile-details">
+          <div class="profile-content">
+            <img src="me.jpg" alt="MyPic">
+          </div>
+            <div class="name-job">
+              <div class="profile_name">Uday Kumar</div>
+              <div class="job">web Designer</div>
+            </div>
+            <i class="bx bx-moon"onclick="darkMode()"></i>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="sub-menu">
+      <div class="sub-home">
+        <div class="about">
+          <h3>Hello Iam,</h3>
+          <h1>Uday Kumar Annaldas</h1>
+          <h3>And I'm a <span class="skill">FullStack Developer</span></h3>
+          <p class="text">Iam an Aspiring FullStack Developer <br> Excited to Jump into Tech Job. Entry Level Software Designer/Developer</p>
+          <div class="social">
+            <i class='bx bxl-whatsapp media'></i>
+            <i class='bx bxl-instagram media' ></i>
+            <i class='bx bxl-facebook media' ></i>
+            <i class='bx bxl-twitter media'></i>
+          </div>
+          <div class="know">
+            <button>AboutMe</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="me.jpg" alt="MyPic"width="280px"height="300px">
+        </div>
+    </div>
+    <div class="about-me">
+      <div class="image">
+        <img src="me1.jpg" alt="MyPic"width="300px"height="400px">
+      </div>
+      <div class="about-sub">
+        <h1>AboutMe</h1>
+        <h3>FullStackDeveloper</h3>
+        <p>Iam a Full Stack Developer From Rajanna Sircilla Iam intrested to Join in a Company where i can put my Skills and efforts in a real Time project. These are my early days in IT career Iam doing now Internship in MicrOrbital Labs. as well as Iam about to complete My Java FullStack so if anyOne Hires please Consider me iam Open to Work FrontEnd roles,FullStack Roles, ReactJs Roles.</p>
+      </div>
+    </div>
+    <div class="sub-skill">
+      <div class="heading">
+        <h1>Technical Skills</h1>
+        <h1 class="tech">Professional Skills</h1>
+      </div>
+      <div class="lang">
+        <div class="lang-f-box">
+          <h1 class="lang-f lang-f1"><i class='bx bxl-java'></i>Java & J2EE</h1>
+          <h1 class="lang-f lang-f2"><i class='bx bx-data' ></i>MySQL</h1>
+          <h1 class="lang-f lang-f3"><i class='bx bxl-html5' ></i>HTML</h1>
+          <h1 class="lang-f lang-f4"><i class='bx bxl-css3' ></i>CSS</h1>
+          <h1 class="lang-f lang-f5"><i class='bx bxl-javascript' ></i>JavaScript</h1>
+          <h1 class="lang-f lang-f6"><i class='bx bxl-bootstrap' ></i>BootStrap</h1>
+          <h1 class="lang-f lang-f7"><i class='bx bxl-react' ></i>ReactJS</h1>
+          <h1 class="lang-f lang-f8"><i class='bx bxl-spring-boot' ></i>Spring & SpringBoot</h1>
+          <h1 class="lang-f lang-f9"><i class='bx bxl-spring-boot' ></i>Hibernate</h1>
+        </div>
+        <div class="soft">
+          <div class="row1">
+            <div class="box-main">
+              <div class="box1">
+                <div class="perc">
+                  <div class="inside"><p class="one">80%</p></div>
+                </div>
+                <p>Communications</p>
+              </div>
+              <div class="box2">
+                <div class="perc">
+                  <div class="inside"><p class="two">90%</p></div>
+                </div>
+                <p>Creativity</p>
+              </div>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="box-main">
+              <div class="box1">
+                <div class="perc">
+                  <div class="inside"><p class="three">90%</p></div>
+                </div>
+                <p>Problem Solving</p>
+              </div>
+              <div class="box2">
+                <div class="perc">
+                  <div class="inside"><p class="four">85%</p></div>
+                </div>
+                <p>Team-work</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="section-p1">
+      <div class="one">
+          <p id="logo">MyPortFolio</p><br><br>
+          <p class="con">Contact</p>
+          <p><b>Address: </b>xxxxxxxxx,xxxxxxxxxx</p>
+          <p><b>PhoneNo: </b>6303xxxxxx</p>
+          <p class="con">Follow Me</p>
+          <ul>
+              <a href=""><i class='bx bxl-instagram bx-spin socialm'></i></a>
+              <a href=""><i class='bx bxl-twitter bx-burst socialm' ></i></a>
+              <a href=""><i class='bx bxl-whatsapp bx-tada socialm'></i></a>
+              <a href=""><i class='bx bxl-youtube bx-fade-up socialm'></i></a>
+          </ul>
+      </div>
+      <div class="two">
+          <h1>SignUp</h1>
+          <form class="form">
+            <label for="">FirstName:</label>
+            <input type="text"placeholder="Enter First name"><br>
+            <label for="">LastName:</label>
+            <input type="text"placeholder="Enter Last name"><br>
+            <label for="">Gender:</label><br>
+            <input type="radio"name="gender">
+            <label for="">Male</label>
+            <input type="radio"name="gender">
+            <label for="">Female</label>
+            <input type="radio"name="gender">
+            <label for="">Other</label><br>
+            <label for="">Password:</label>
+            <input type="password"placeholder="Enter Password"><br>
+            <label for="">CnfPaswd:</label>
+            <input type="password"placeholder="Confirm Password"><br>
+            <button>Submit</button>
+          </form>
+      </div>
+    </div>
+  </section>
+  <script src="Sidebar.js"></script>
+</body>
+</html>
