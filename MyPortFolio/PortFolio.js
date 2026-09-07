@@ -6,6 +6,7 @@ for(var i=0;i<arrow.length;i++){
     arrowParent.classList.toggle("showMenu");
   })
 }
+//added comment.
 //to close the sidebar when i clicked the menu button.
 let sidebar=document.querySelector(".sidebar");
 let sidebarBtn=document.querySelector(".bx-menu");
