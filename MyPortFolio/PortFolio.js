@@ -7,6 +7,7 @@ for(var i=0;i<arrow.length;i++){
   })
 }
 //added comment2.
+//added comment1.
 //to close the sidebar when i clicked the menu button.
 let sidebar=document.querySelector(".sidebar");
 let sidebarBtn=document.querySelector(".bx-menu");
